@@ -26,7 +26,7 @@ public class Contador {
        }
        else if(parametroUm < parametroDois){
         int contagem = parametroDois - parametroUm;
-        for(int iniciandoContagem = 0 ; iniciandoContagem < contagem ;iniciandoContagem ++){
+        for(int iniciandoContagem = 1 ; iniciandoContagem < contagem ;iniciandoContagem ++){
             System.out.println("Imprimindo o número:" +iniciandoContagem);
         }   
        }
